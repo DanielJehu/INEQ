@@ -13,10 +13,10 @@ namespace Entities
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class IneqEntities : DbContext
+    public partial class IneqEntities1 : DbContext
     {
-        public IneqEntities()
-            : base("name=IneqEntities")
+        public IneqEntities1()
+            : base("name=IneqEntities1")
         {
         }
     

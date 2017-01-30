@@ -492,7 +492,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="IneqEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="IneqEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
           <EntitySet Name="Brands" EntityType="Self.Brand" />
           <EntitySet Name="Components" EntityType="Self.Component" />
@@ -545,7 +545,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="IneqModelStoreContainer" CdmEntityContainer="IneqEntities">
+        <EntityContainerMapping StorageEntityContainer="IneqModelStoreContainer" CdmEntityContainer="IneqEntities1">
           <EntitySetMapping Name="C__MigrationHistory">
             <EntityTypeMapping TypeName="IneqModel.C__MigrationHistory">
               <MappingFragment StoreEntitySet="__MigrationHistory">
